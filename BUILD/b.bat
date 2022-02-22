@@ -1,0 +1,1 @@
+start cmd.exe /k ""Build Truncated GDI Image.bat" "PANZER_FRONT_JAP Extracted""

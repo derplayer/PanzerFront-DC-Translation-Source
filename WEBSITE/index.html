@@ -1,0 +1,413 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+   <HEAD>
+      <TITLE>PANZER FRONT DREAMCAST TRANSLATION HOMEPAGE</TITLE>
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <STYLE>
+         table{
+			overflow-wrap: break-word;
+         }
+		 
+		 body {
+		  background-image: url('./render/images/_bg.jpg');
+		  cursor: url("https://derplayer.github.io/OTHER/pzf/c1.cur"), auto;
+		}
+		
+		a:hover {
+			cursor: url("https://derplayer.github.io/OTHER/pzf/c2.cur"), auto;
+		}
+	
+      </STYLE>
+      <script src="./webgl/inflate.min.js"></script>
+      <script src="./webgl/three.min.js"></script>
+      <script src="./webgl/FBXLoader.min.js"></script>
+   </HEAD>
+   <BODY link="#000000" vlink="#000000" alink="#000000"> <!-- bgcolor="#406624"  -->
+
+      <CENTER>
+         <TABLE width="60%" style="background: black; padding: 0px 15px 0px 15px;">
+            <TR>
+               <TD colspan="2">
+                  <FONT size="+4" color="#ffffff" face="Verdana"><B><I>PANZER VOR!</I></B></FONT><BR>
+                  <FONT size="+2" color="#FFCC00"><I><B>PANZER FRONT FOR DREAMCAST - ENGLISH TRANSLATION PATCH PROJECT</B></I></FONT><IMG style="margin-top: -15px;margin-left: 10px;" src="images/tama2.gif" align="middle" height="9" width="62"><BR>
+                  <FONT size="-1" color="#ffffff"> by derplayer - Last Update: Feb. 2022</FONT><BR>
+                  <HR>
+               </TD>
+            </TR>
+            <TR>
+               <TD align="center" valign="top" width="700">
+                  <FONT size="+2"><B><FONT size="+2"><FONT size="+2" color="#000000">
+						<font color="#FFCC00" face="Helvetica" size="+2"><span style="font-size:24">INTRODUCTION TO PANZER FRONT</span></font>
+						<br><br>
+				  </FONT></FONT></B></FONT>
+				  
+					<!-- 3d here -->
+					<div style="position: relative;" id="viewpoint_test"></div>
+                 <!-- <A href="products.html"><IMG src="images/bis.gif" border="1" width="180" height="180"></A><BR> -->
+
+				  
+				  <I><FONT size="+2"><B><FONT size="+2"><BR>
+				  
+				  
+<FONT color="#ffffff" size="+0">
+Panzer Front is a World War II tank simulation game released in 1999 for the Dreamcast and Playstation game consoles.
+It is unique for a console game in that it seamlessly blends strategy and action.
+You can take control of more than 40 tanks, of which all but 6 are authentic 2nd World War models.
+<BR><BR>
+The game covers both the Eastern front, and the Western front in over 25 missions.
+Allowing the player to take control of American, Soviet, or German forces.
+<BR><BR>
+It is a very immersive game, that truly draws you in.
+The AI is impressive, with tanks behaving as a 60 ton metal monster should!
+As well as controlling your own tank, you can also give commands to other friendly units, which include artillery and aircraft.
+Quality and skill win through, and as in real life, one shot can kill!
+
+</FONT><br>
+				  
+                  <FONT size="-2"><BR>
+                  </FONT></FONT></B></FONT></I>
+                  <HR>
+                  <BR>
+                  <TABLE width="100%">
+                     <TBODY>
+                        <TR>
+                           <TD align="center">
+							  <font color="#FFCC00" face="Helvetica" size="+2"><span style="font-size:24">TRANSLATION PATCH</span></font>
+                              <BR>
+                           </TD>
+                        </TR>
+                     </TBODY>
+                  </TABLE>
+                  <FONT color="#ffffff" size="+1"><B>The Dreamcast translation patch is based on the English PS1 files.
+                  Everything is translated to 100%. Minor formatting errors are possible. You will need a GDI Image of the Japanese Dreamcast version to apply the english patch on it.</B><BR>
+                  </FONT><BR>
+                  <TABLE border="1" cellpadding="5">
+                     <TBODY>
+                        <TR>
+                           <TD bgcolor="#000000"><B><FONT color="#ffffff">
+								<A target="_blank" href="https://www.mediafire.com/file/w0supoc7zmfggzx/PZF_DC_1_00.dcp/file"><FONT color="#ffffff"><B>Patch v1.00 (17/02/2022, dcp format)</B></FONT></FONT></B>
+						   </TD>
+						   <TD bgcolor="#000000"><B><FONT color="#ffffff">
+								<A target="_blank" href="https://github.com/DerekPascarella/UniversalDreamcastPatcher/releases"><FONT color="#ffffff"><B>Download Patch Tool</B></FONT></FONT></B>
+							</TD>
+                        </TR>
+                     </TBODY>
+                  </TABLE>
+                  <I><FONT size="+2"><B><FONT size="+2"><BR>
+                  </FONT></B></FONT></I>
+               </TD>
+			   
+			   
+			   
+			   <!-- MENU BAR STARTS HERE-->
+			   
+			   
+			   
+               <TD valign="top" width="290">
+                  <DIV align="right">
+                     <TABLE width="280" cellpadding="5">
+                        <TR>
+                           <TD align="left" bgcolor="#000000"><FONT color="#d0b000"><B>Bonus</B></FONT></TD>
+                        </TR>
+                     </TABLE>
+                  </DIV>
+                  <DIV align="right">
+                     <TABLE width="280" cellpadding="5">
+                        <TR>
+                           <TD align="left" bgcolor="#d0b000"><A href="./artwork"><FONT color="#000000"><B>Artwork</B></FONT></A></TD>
+                        </TR>
+                     </TABLE>
+                  </DIV>
+                  <DIV align="right">
+                     <TABLE width="280" cellpadding="5">
+                        <TR>
+                           <TD align="left" bgcolor="#d0b000"><A href="./render"><FONT color="#000000"><B>Render</B></FONT></A>
+                           </TD>
+                        </TR>
+                     </TABLE>
+                  </DIV>
+                  <DIV align="right">
+                     <TABLE width="280" cellpadding="5">
+                        <TR>
+                           <TD align="left" bgcolor="#d0b000"><A href="https://web.archive.org/web/20010626205828/http://www.enterbrain.co.jp/digifami/products/panzer/const/constmap.htm"><FONT color="#000000"><B>High Resolution Map Render</B></FONT></A></TD>
+                        </TR>
+                     </TABLE>
+                  </DIV>
+                  <DIV align="right">
+                     <TABLE width="280" cellpadding="5">
+                        <TR>
+                           <TD align="left" bgcolor="#d0b000"><A href="./videos"><B>Videos</B></A></TD>
+                        </TR>
+                     </TABLE>
+                  </DIV>
+				  
+                  <DIV align="right">
+                     <TABLE width="280" cellpadding="5">
+                        <TR>
+                           <TD align="left" bgcolor="#d0b000"><A href="https://archive.org/details/panzer-front-official-guide-book"><FONT color="#000000"><B>Panzer Front Official Guide Book (Japanese)</B></FONT></A></TD>
+                        </TR>
+                     </TABLE>
+                  </DIV>
+				  
+                  <DIV align="right">
+                     <DIV align="right">
+                        <TABLE width="280" cellpadding="5">
+                           <TBODY>
+                              <TR>
+                                 <TD align="left" bgcolor="#d0b000">　</TD>
+                              </TR>
+                           </TBODY>
+                        </TABLE>
+                     </DIV>
+                     <TABLE width="280" cellpadding="5">
+                        <TBODY>
+                           <TR>
+                              <TD align="left" bgcolor="#d0b000">　</TD>
+                           </TR>
+                        </TBODY>
+                     </TABLE>
+                  </DIV>
+                  <DIV align="right">
+                     <TABLE width="280" cellpadding="5">
+                        <TBODY>
+                           <TR>
+                              <TD align="left" bgcolor="#d0b000">　</TD>
+                           </TR>
+                        </TBODY>
+                     </TABLE>
+                  </DIV>
+				  
+				  
+				  
+				  
+				  
+				  
+				  
+				  
+				  
+                  <DIV align="right">
+                     <TABLE width="280" cellpadding="5">
+                        <TR>
+                           <TD align="left" bgcolor="#000000"><FONT color="#d0b000"><B>Links/Community</B></FONT></TD>
+                        </TR>
+                     </TABLE>
+                  </DIV>
+                  <DIV align="right">
+                     <TABLE width="280" cellpadding="5">
+                        <TR>
+                           <TD align="left" bgcolor="#d0b000"><B><A href="https://www.tapatalk.com/groups/thepanzerfront/"><FONT>Panzer Front Forum (since 2002)</FONT></A></B></TD>
+                        </TR>
+                     </TABLE>
+                  </DIV>
+                  <DIV align="right">
+                     <TABLE width="280" cellpadding="5">
+                        <TR>
+                           <TD align="left" bgcolor="#d0b000"><A href="http://www.geocities.ws/panzerfrontuk/index.html"><FONT color="#000000"><B>The Ultimate Panzer Front Fan Page</B></FONT></A></TD>
+                        </TR>
+                     </TABLE>
+                  </DIV>
+                  <DIV align="right">
+                     <TABLE width="280" cellpadding="5">
+                        <TR>
+                           <TD align="left" bgcolor="#d0b000"><A href="https://web.archive.org/web/20010606093243/http://www.enterbrain.co.jp/digifami/products/panzer/"><FONT color="#000000"><B>Official Page (Japanese only via archive.org)</B></FONT></A></TD>
+                        </TR>
+                     </TABLE>
+                  </DIV>
+                  <DIV align="right">
+                     <TABLE width="280" cellpadding="5">
+                        <TR>
+                           <TD align="left" bgcolor="#d0b000"><B><A href="https://yugioh-moddingchat.chatango.com/"><FONT>Contact/Guestbook</FONT></A></B></TD>
+                        </TR>
+                     </TABLE> 
+                  </DIV>
+                  <DIV align="right">
+                     <TABLE width="280" cellpadding="5">
+                        <TR>
+                           <TD align="left" bgcolor="#d0b000">　</TD>
+                        </TR>
+                     </TABLE>
+                  </DIV>
+                  <DIV align="right">
+                     <TABLE width="280" cellpadding="5">
+                        <TR>
+                           <TD align="left" bgcolor="#d0b000">　</TD>
+                        </TR>
+                     </TABLE>
+                  </DIV>
+                  <DIV align="right">
+                     <TABLE width="280" cellpadding="5">
+                        <TR>
+                           <TD align="left" bgcolor="#d0b000">　</TD>
+                        </TR>
+                     </TABLE>
+                  </DIV>
+                  <DIV align="right">
+                     <TABLE width="280" cellpadding="5">
+                        <TR>
+                           <TD align="left" bgcolor="#d0b000">　</TD>
+                        </TR>
+                     </TABLE>
+                  </DIV>
+                  <DIV align="right">
+                     <TABLE width="280" cellpadding="5">
+                        <TR>
+                           <TD align="left" bgcolor="#d0b000"><B><A href="https://derplayer.neocities.org"><FONT>Back to Main Page</FONT></A></B></TD>
+                        </TR>
+                     </TABLE>
+                  </DIV>
+               </TD>
+            </TR>
+         </TABLE>
+      </CENTER>
+
+
+<script>
+
+			var container, stats;
+
+			var camera, scene, renderer, mesh;
+
+			var mouseX = 0, mouseY = 0;
+
+			// window.innerWidth & window.innerHeight
+			var forceX = (window.innerWidth * 0.27), forceY = 240;
+			// forceX = ~500px
+
+			var windowHalfX = (window.innerWidth) / 2;
+			var windowHalfY = window.innerHeight / 2;
+
+
+			init();
+			animate();
+
+
+			function init() {
+
+				container = document.getElementById("viewpoint_test");
+				//document.body.appendChild( container );
+
+				camera = new THREE.PerspectiveCamera( 30, forceX / forceY, 1, 2000 );
+				camera.position.z = 250;
+
+				// scene
+
+				scene = new THREE.Scene();
+
+				var ambientLight = new THREE.AmbientLight( 0xcccccc, 1.2 );
+				scene.add( ambientLight );
+
+				//var pointLight = new THREE.PointLight( 0xffffff, 0.8 );
+				//pointLight.position.x -= 50;
+				//pointLight.position.y -= 50;
+				
+				//camera.add( pointLight );
+				scene.add( camera );
+
+				var onProgress = function ( xhr ) {
+
+					if ( xhr.lengthComputable ) {
+
+						var percentComplete = xhr.loaded / xhr.total * 100;
+						console.log( Math.round( percentComplete, 2 ) + '% downloaded' );
+
+					}
+
+				};
+
+				var onError = function () { };
+
+				var loader = new THREE.FBXLoader();
+				loader.load( './webgl/pzf.js', function ( object ) {
+					
+					object.traverse( function ( child ) {
+
+						if ( child.isMesh ) {
+
+							child.castShadow = false;
+							child.receiveShadow = false;
+							child.opacity = 1.0;
+							child.transparent = false;
+						}
+
+					} );
+
+					object.position.y -= 50;
+					object.scale.set(0.5,0.5,0.5);
+					object.rotation.y -= 1.5;
+					//object.name = 'box';
+
+					mesh = object;
+					scene.add( object );
+
+				} );
+				//
+
+				renderer = new THREE.WebGLRenderer( { alpha: true } );
+				renderer.setClearColor( 0x000000, 0 ); // the default
+				renderer.setPixelRatio( window.devicePixelRatio );
+				renderer.setSize( forceX, forceY );
+				//renderer.light = false;
+				container.appendChild( renderer.domElement );
+
+				document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+
+				//
+
+				window.addEventListener( 'resize', onWindowResize, false );
+
+			}
+
+			function onWindowResize() {
+
+				windowHalfX = (window.innerWidth ) / 2;
+				windowHalfY = window.innerHeight / 2;
+
+				camera.aspect = forceX / forceY;
+				camera.updateProjectionMatrix();
+
+				forceX = (window.innerWidth * 0.27); //update
+				renderer.setSize( forceX, forceY );
+
+			}
+
+			function onDocumentMouseMove( event ) {
+
+				mouseX = ( event.clientX - windowHalfX ) / 2;
+				mouseY = ( event.clientY - windowHalfY ) / 2;
+
+			}
+
+			//
+
+			function animate() {
+
+				requestAnimationFrame( animate );
+				render();
+
+			}
+
+			function render() {
+
+				camera.position.x += ( mouseX - camera.position.x ) * .02;
+				camera.position.y += ( - mouseY - camera.position.y ) * .02;
+
+				camera.lookAt( scene.position );
+
+				    if ( mesh ) {
+						//mesh.rotation.y += 0.0050;
+						//mesh.rotation.x += 0.0050;
+						
+						var box = scene.getObjectByName('box');
+
+						//camera.lookAt(box.position);
+					}
+				
+
+				renderer.render( scene, camera );
+
+			}
+
+		</script>
+
+   </BODY>
+</HTML>

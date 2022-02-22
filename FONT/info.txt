@@ -1,0 +1,7 @@
+Font goes into "TITLE" folder and "KDAT" folder. (duplicate)
+One is for the Menus and the other for ingame texts. In this translation they are one, because there are enough char slots.
+
+Font by: int10h.org / VileR
+https://int10h.org/oldschool-pc-fonts/fontlist/font?dos-v_re_jpn16
+
+Mx437_DOS-V_re._JPN16-PZFMod.ttf is a slight modification by me for Panzer Front needs.

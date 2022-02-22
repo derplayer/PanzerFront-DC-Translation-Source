@@ -1,0 +1,10 @@
+v32 (1.00 Release):
+
+Save Loading screen:
+	* Shows a bit of garbage when you close and reopen da dialog?
+
+USA TRAINING 1:
+	* Score Screen still Shows "syoki 1" placeholder labels (even official translations shows them sometimes?)
+	
+ALL:
+	* Ingame Text-formating is sometimes not perfect

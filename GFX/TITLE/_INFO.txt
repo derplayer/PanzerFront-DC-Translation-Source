@@ -1,0 +1,65 @@
+___________________________________________
+
+U S A  M I S S I O N S
+____________________________________________
+
+Training - 1
+Training - 2
+
+1944/07/09  St. Jean-de-Daye
+1944/07/10  Le Dezert
+1944/08/15  Argentan
+1944/12/18  Poteau
+1944/12/21  Saint-Vith
+1945/03/07  Ludendorf Bridge
+
+R U S S I A   M I S S I O N S
+-----------------------------
+
+Training
+
+1941/12/09  Strike Army
+1942/08/27  Gaytolovo
+1943/01/18  Poselok No.5
+1943/07/12  Swch. Oktjabrskij
+1943/07/22  Junction
+1944/01/19  Krasnoe Sero
+   
+G E R M A N Y   M I S S I O N S
+-------------------------------
+
+Training - 1
+Training - 2
+
+1943/07/05  Hill 220.5
+1943/07/12  Swch. Oktjabrskij
+1944/07/10  Hill 112
+1944/08/08  N158 Highway
+1945/03/23  Sachsendorf
+1945/04/30  Berlin
+
+G E R M A N Y  - E X T R A  M I S S I O N S
+--------------------------------------------
+
+1943/01/20  Sinyavino
+1943/12/19  Vitebsk
+1944/06/13  Villers-Bocage
+1944/07/27  Barkmann Corner
+Training - M1 vs T-80
+
+--------------------------------------------
+OPTIONS
+Automatic transmission
+Automatic turrent rotation
+Range indicator
+Fire point indicator
+Double ammo loading speed
+Tank damage
+Limited Ammo
+Reverse gunsight movement
+Vibration
+Controller type
+Audio output
+BGM volume
+SFX volume
+SFX test
